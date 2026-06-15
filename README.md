@@ -44,8 +44,6 @@ Depending on how your Mumo environment is configured, choose one of the methods 
 
 #### Method A: If your setup uses a single mumo.ini file
 Open your `mumo.ini` file and add `sports` to your active modules list, then append the configuration at the bottom:
-
-```ini
 [modules]
 sports =
 
@@ -55,8 +53,6 @@ enabled = true
 Method B: If your setup uses a modules-enabled/ directory
 
 Create a new file called sports.ini inside your modules-enabled/ folder:
-Ini, TOML
-
 [sports]
 enabled = true
 
