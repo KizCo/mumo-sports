@@ -13,21 +13,29 @@ Mumo module for Mumble 1.5+ that delivers live, hyperlinked sports scores and sc
 
 🏀 Supported Leagues
 
-| Command | League / Sport | Scope | Link Target 
-| `!scores nfl` | NFL Football | Pro Matchups | Boxscore Directory 
-| `!scores nba` | NBA Basketball | Pro Matchups | Boxscore Directory 
-| `!scores mlb` | MLB Baseball | Pro Matchups | Boxscore Directory 
-| `!scores nhl` | NHL Hockey | Pro Matchups | Boxscore Directory 
-| `!scores cfb` | College Football | All FBS Teams  | Boxscore Directory 
-| `!scores wc` | FIFA World Cup | International Soccer | Match Summary 
+
+| `!scores nfl` | NFL Football  
+
+| `!scores nba` | NBA Basketball
+
+| `!scores mlb` | MLB Baseball
+
+| `!scores nhl` | NHL Hockey 
+
+| `!scores cfb` | College Football 
+
+| `!scores wc` | FIFA World Cup
+
 
 *Note: Executing `!scores` without arguments defaults automatically to the NFL scoreboard.*
+
 
 Example Command: !scores mlb
 
 Output:
 
    🏆 Live MLB Scoreboard:
+   
     • Marlins vs Phillies (6/15 - 6:40 PM EDT)
     • Royals 4 @ Nationals 2 (Final)
     • Twins vs Rangers (6/15 - 8:05 PM EDT)
